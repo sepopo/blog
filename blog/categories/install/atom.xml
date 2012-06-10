@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://sepopo.github.com/blog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: install | My Octopress Blog]]></title>
+  <link href="http://sepopo.github.com/blog/blog/categories/install/atom.xml" rel="self"/>
   <link href="http://sepopo.github.com/blog/"/>
   <updated>2012-06-11T07:02:58+09:00</updated>
   <id>http://sepopo.github.com/blog/</id>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://sepopo.github.com/blog/blog/2012/06/11/test/"/>
-    <updated>2012-06-11T06:51:00+09:00</updated>
-    <id>http://sepopo.github.com/blog/blog/2012/06/11/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Trafficserverのインストール]]></title>

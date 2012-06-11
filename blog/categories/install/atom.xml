@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: install | Past Failure Has Gone Away]]></title>
+  <link href="http://sepopo.github.com/blog/blog/categories/install/atom.xml" rel="self"/>
+  <link href="http://sepopo.github.com/blog/"/>
+  <updated>2012-06-11T19:28:07+09:00</updated>
+  <id>http://sepopo.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Tatsuya Yagi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[nfsマウントの仕方]]></title>
+    <link href="http://sepopo.github.com/blog/blog/2012/06/11/nfsmauntofalseshi-fang/"/>
+    <updated>2012-06-11T18:33:00+09:00</updated>
+    <id>http://sepopo.github.com/blog/blog/2012/06/11/nfsmauntofalseshi-fang</id>
+    <content type="html"><![CDATA[<h2>nfsマウントについて</h2>
+
+<p>サーバ側</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo aptitude -y install nfs-kernel-server</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>sudo emacs /etc/exportsを編集</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/mnt 192.168.1.0/24(rw,sync,fsid=0,no_root_squash,no_subtree_check)</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>クライアント側</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo aptitude install nfs-common
+</span><span class='line'>sudo emacs /etc/fstab</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>fstabを編集</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>192.168.1.1:/mnt       /mnt/nfs_server      nfs     rsize=8192,wsize=8192,hard,intr    0       0</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>

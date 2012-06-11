@@ -4,7 +4,7 @@
   <title><![CDATA[Past Failure Has Gone Away]]></title>
   <link href="http://sepopo.github.com/blog/atom.xml" rel="self"/>
   <link href="http://sepopo.github.com/blog/"/>
-  <updated>2012-06-11T19:28:07+09:00</updated>
+  <updated>2012-06-11T19:36:08+09:00</updated>
   <id>http://sepopo.github.com/blog/</id>
   <author>
     <name><![CDATA[Tatsuya Yagi]]></name>
@@ -46,7 +46,7 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>192.168.1.1:/mnt       /mnt/nfs_server      nfs     rsize=8192,wsize=8192,hard,intr    0       0</span></code></pre></td></tr></table></div></figure>
 
 
-
+<p><a href="http://itmst.blog71.fc2.com/blog-entry-89.html">ここ</a>にexportsやfstabのオプションについての記述あり。</p>
 ]]></content>
   </entry>
   
